@@ -52,12 +52,6 @@
 .marginF {
     margin: 0px 0px 110px 0px;
 }
-
-.reparaciones {
-    width: 400px;
-    height: 400px;
-}
-
 .sucursales {
     text-align: center;
     margin-top: 15px;
@@ -71,4 +65,9 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+.contenedor-cads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
