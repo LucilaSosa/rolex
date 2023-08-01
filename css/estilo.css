@@ -1,0 +1,81 @@
+
+.color-font {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.tam-carr {
+    height: 760px;
+    height: 450px;
+    background-size: cover;
+}
+
+.woman {
+    margin: 0px 0px 80px 0px;
+}
+
+.tituloP {
+    background-color: rgba(240, 230, 140, 0.588);
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+
+.bgContactos {
+    background-color: khaki;
+}
+
+.inicio {
+    color: black;
+    background-color: rgba(245, 245, 244, 0.63);
+    padding: 30px;
+}
+
+.bgIndex {
+    background-color: rgb(74, 70, 64);
+    color: white;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.color-btn {
+    background-color: khaki;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.woman {
+    margin: 0px 0px 80px 0px;
+}
+
+.marginF {
+    margin: 0px 0px 110px 0px;
+}
+
+.reparaciones {
+    width: 400px;
+    height: 400px;
+}
+
+.sucursales {
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 1em 0;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

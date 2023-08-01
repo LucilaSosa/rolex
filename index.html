@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1) Vinculamos la hoja de estilo de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- 2) Vinculamos la hoja de estilo de CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Inicio</title>
+</head>
+
+<body class="bgIndex">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary text-center">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">ROLEX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sucursales.html">Sucursales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactos.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- carrusel -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active tam-carr position-relative">
+                    <img src="img/prueba5.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item tam-carr">
+                    <img src="img/reloj2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item tam-carr">
+                    <img src="img/rolex1.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="tituloP">
+            <h1>Rolex</h1>
+        </div>
+
+        <h3 class="mt-3 text-center">Novedades</h3>
+
+        <hr class="featurette-divider">
+
+        <div class="row text-center container-fluid">
+            <div class="col-xl-3 col-md-6 col-sm-12">
+                <h2 class="featurette-heading fw-normal">Water Resistant Watch</h2>
+                <p class="lead">LLegaron a nuestras sucursales los water resistant watch, aprovecha nuestras
+                    promociones,
+                    HOT SALE 30%</p>
+            </div>
+
+            <div class="col-xl-3 col-md-6 col-sm-12 mx-auto">
+                <img class="img-fluid" src="/img/water.jpg" alt="">
+                <br>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row text-center container-fluid">
+            <div class="col-xl-3 col-md-6 col-sm-12">
+                <h2 class="featurette-heading fw-normal">Mallas de cuero</h2>
+                <p class="lead">Tenemos para ofrecerte nuevos modelos de mallas para vestir tu reloj a corde a tu estilo
+                </p>
+            </div>
+
+            <div class="col-xl-3 col-md-6 col-sm-12 mx-auto">
+                <img class="img-fluid" src="/img/mallas.jpg" alt="">
+                <br>
+            </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+
+        <div class="row text-center container-fluid woman">
+            <div class="col-xl-3 col-md-6 col-sm-12">
+                <h2 class="featurette-heading fw-normal">WOMAN</h2>
+                <p class="lead">Ingresaron nuevos modelos de relojes para mujer, Aprovechá HOT SALE 30%</p>
+            </div>
+
+            <div class="col-xl-3 col-md-6 col-sm-12 mx-auto">
+                <img class="img-fluid" src="/img/rolexmujer.jpg" alt="">
+                <br>
+            </div>
+        </div>
+
+        </div><!-- /.container -->
+    </main>
+    <!-- PIÉ DE PÁGINA -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-3 col-md-6 col-sm-12">
+                <footer class="fixed-bottom">
+                    <spam>© Rolex - Todos los derechos reservados</spam>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
