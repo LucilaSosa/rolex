@@ -1,9 +1,9 @@
-
 .color-font {
     color: rgb(0, 0, 0);
     font-size: 15px;
     font-weight: bolder;
 }
+
 .woman {
     margin: 0px 0px 80px 0px;
 }
@@ -67,10 +67,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.contenedor-cads{
+
+.contenedor-cads {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
-
