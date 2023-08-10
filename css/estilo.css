@@ -57,14 +57,13 @@
     margin-top: 15px;
 }
 .contenedor{
-    display: flex;
+    flex-direction: column;
     padding-bottom: 90px;
-    justify-content: center;
-    align-items: center;
 }
 iframe{
-    width: 560px;
-    height: 260px;
+    width: 500px;
+    height: 300px;
+    border-bottom: 15px;
     margin: 0px 10px 0px 10px;
 }
 /* ESTILO CONTACTOS */
