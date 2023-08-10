@@ -8,47 +8,47 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- 2) Vinculamos la hoja de estilo de CSS -->
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Inicio</title>
 </head>
 
 <body class="bgContactos">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- ENCABEZADO -->
+    <header class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">ROLEX</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a class="navbar-brand" href="../index.html">
+                <h1 class="logo">ROLEX</h1>
+            </a>
+            <!-- MENÚ DE NAVEGACIÓN -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="../index.html"><h2 class="pages">Inicio</h2></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="productos.html">Productos</a>
+                        <a class="nav-link" href="productos.html"><h2 class="pages">Productos</h2></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="servicios.html">Servicios</a>
+                        <a class="nav-link" href="servicios.html"><h2 class="pages">Servicios</h2></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sucursales.html">Sucursales</a>
+                        <a class="nav-link" href="sucursales.html"><h2 class="pages">Sucursales</h2></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactos.html">Contactos</a>
+                        <a class="nav-link" href="contactos.html"><h2 class="pages">Contactos</h2></a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <!-- SECCION CONTACTO -->
+   <!-- CONTENIDO PRINCIPAL DE LA PÁGINA -->
     <main>
         <div class="b-example-divider"></div>
 
         <div class="container px-4 py-5" id="icon-grid">
             <h2 class="pb-2 border-bottom">CONTACTANOS</h2>
-
+            <!-- contactos -->
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
                 <div class="col d-flex align-items-start">
                     <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
@@ -56,8 +56,7 @@
                     </svg>
                     <div>
                         <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CHAT ONLINE</h3>
-                        <p>¿Tenés dudas o consultas? podés chatear on line con nosotros haciendo click aquí. Lunes a
-                            viernes hábiles de 8 a 20 horas</p>
+                        <p>¿Tenés dudas o consultas? podés chatear on line con nosotros haciendo click aquí. Lunes a viernes hábiles de 8 a 20 horas</p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
@@ -85,16 +84,14 @@
                         <use xlink:href="#home" />
                     </svg>
                     <div>
-                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">WHATSAPP</h3>
+                        <p><a class="link" href="https://w.app/8bnpoG">clic aquí</a></p>
                     </div>
                 </div>
-            </div>
+            </div>  
             <div class="b-example-divider"></div>
 
-
-
-
+            <!-- redes -->
             <div class="container px-4 py-5" id="icon-grid">
                 <h2 class="pb-2 border-bottom">Seguí a ROLEX en lad redes</h2>
 
@@ -139,15 +136,10 @@
     </main>
 
     <!-- PIÉ DE PÁGINA -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <footer class="fixed-bottom">
-                    <spam>© Rolex - Todos los derechos reservados</spam>
-                </footer>
-            </div>
-        </div>
-    </div>
+    <footer class="fixed-bottom">
+        <spam>© Rolex - Todos los derechos reservados</spam>
+    </footer>
+
     <!-- JS BS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
