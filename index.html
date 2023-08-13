@@ -15,43 +15,54 @@
 
 <body class="bgIndex">
 
-    <!-- ENCABEZADO -->
+    <!-- LISTA DE ENLACES NAVEGABLES -->
     <header class="navbar navbar-expand-lg bg-body-tertiary text-center">
-        <div class="container-fluid">
+        <nav class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <h1 class="logo">ROLEX</h1>
             </a>
             <!-- menú hamburguesa -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- MENÚ DE NAVEGACIÓN -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html"><h2 class="pages">Inicio</h2  class="pages"></a>
+                        <a class="nav-link" href="index.html">
+                            <h2 class="pages">Inicio</h2 class="pages">
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="html/productos.html"><h2  class="pages">Productos</h2  class="pages"></a>
+                        <a class="nav-link" href="html/productos.html">
+                            <h2 class="pages">Productos</h2 class="pages">
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="html/servicios.html"><h2  class="pages">Servicios</h2 class="pages"></a>
+                        <a class="nav-link" href="html/servicios.html">
+                            <h2 class="pages">Servicios</h2 class="pages">
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="html/sucursales.html"><h2  class="pages">Sucursales</h2 class="pages"></a>
+                        <a class="nav-link" href="html/sucursales.html">
+                            <h2 class="pages">Sucursales</h2 class="pages">
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="html/contactos.html"><h2 class="pages">Contactos</h2 class="pages"></a>
+                        <a class="nav-link" href="html/contactos.html">
+                            <h2 class="pages">Contactos</h2 class="pages">
+                        </a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </header>   
+        </nav>
+    </header>
 
     <!-- CONTENIDO PRINCIPAL DE LA PÁGINA -->
     <main>
         <!-- carrusel -->
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <section id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -79,63 +90,65 @@
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="next">
             </button>
-        </div>
+        </section>
+        <section>
+            <!-- titulo divisorio -->
+            <div class="tituloP">
+                <h3>Rolex</h3>
+            </div>
+            <!-- área novedades -->
+            <h4 class="mt-3 text-center">NOVEDADES</h4>
 
-        <!-- titulo divisorio -->
-        <div class="tituloP">
-            <h1>Rolex</h1>
-        </div>
+            <hr class="featurette-divider">
 
-        <!-- área novedades -->
-        <h3 class="mt-3 text-center">NOVEDADES</h3>
+            <div class="row text-center container-fluid">
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <h5 class="featurette-heading fw-normal">Water Resistant Watch</h5>
+                    <p class="lead">LLegaron a nuestras sucursales los water resistant watch, aprovecha nuestras
+                        promociones, HOT SALE 30%</p>
+                </div>
 
-        <hr class="featurette-divider">
-
-        <div class="row text-center container-fluid">
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <h2 class="featurette-heading fw-normal">Water Resistant Watch</h2>
-                <p class="lead">LLegaron a nuestras sucursales los water resistant watch, aprovecha nuestras promociones, HOT SALE 30%</p>
+                <div class="col-xl-3 col-md-6 col-sm-12 mx-auto">
+                    <img class="img-fluid" src="img/water.jpg" alt="">
+                </div>
             </div>
 
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-auto">
-                <img class="img-fluid" src="img/water.jpg" alt="">
-            </div>
-        </div>
+            <hr class="featurette-divider">
 
-        <hr class="featurette-divider">
+            <div class="row text-center container-fluid">
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <h5 class="featurette-heading fw-normal">Mallas de cuero</h5>
+                    <p class="lead">Tenemos para ofrecerte nuevos modelos de mallas para vestir tu reloj a corde a tu
+                        estilo
+                    </p>
+                </div>
 
-        <div class="row text-center container-fluid">
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <h2 class="featurette-heading fw-normal">Mallas de cuero</h2>
-                <p class="lead">Tenemos para ofrecerte nuevos modelos de mallas para vestir tu reloj a corde a tu estilo
-                </p>
-            </div>
-
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-auto">
-                <img class="img-fluid" src="img/mallas.jpg" alt="">
-            </div>
-        </div>
-
-
-        <hr class="featurette-divider">
-
-        <div class="row text-center container-fluid woman">
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <h2 class="featurette-heading fw-normal">WOMAN</h2>
-                <p class="lead">Ingresaron nuevos modelos de relojes para mujer, Aprovechá HOT SALE 30%</p>
+                <div class="col-xl-3 col-md-6 col-sm-12 mx-auto">
+                    <img class="img-fluid" src="img/mallas.jpg" alt="">
+                </div>
             </div>
 
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-auto">
-                <img class="img-fluid" src="img/rolexmujer.jpg" alt="">
+
+            <hr class="featurette-divider">
+
+            <div class="row text-center container-fluid woman">
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <h5 class="featurette-heading fw-normal">Woman</h5>
+                    <p class="lead">Ingresaron nuevos modelos de relojes para mujer, Aprovechá HOT SALE 30%</p>
+                </div>
+
+                <div class="col-xl-3 col-md-6 col-sm-12 mx-auto">
+                    <img class="img-fluid" src="img/rolexmujer.jpg" alt="">
+                </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <!-- PIÉ DE PÁGINA -->
     <footer class="fixed-bottom">
         <spam>© Rolex - Todos los derechos reservados</spam>
     </footer>
-           
+
 
     <!-- JS BS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
